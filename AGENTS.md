@@ -19,8 +19,9 @@
 - `tools/slice_mahjong.py` — 牌面生成器，`TILES` 是 32 张牌的唯一真实来源。
   特殊牌面归它所有：七筒 3 上 4 下、八筒 2 列×4 行、八条上下对称 M。
   运行：`python3 tools/slice_mahjong.py`（需 Pillow）。
-- `assets/mahjong/tiles/*.png` — 120×168 统一尺寸；`assets/fonts/LXGWWenKai-Medium.ttf`
-  是 vendored 楷体（OFL，生成机 `~/Library/Fonts` 也装了一份），删了会导致汉字回退黑体。
+- `assets/mahjong/tiles/*.png` — 120×168 统一尺寸；牌面汉字用楷体（LXGW WenKai，中宫大），
+  字体放本机 `assets/private/fonts/`（已 ignore，各生成机自备，`~/Library/Fonts` 也装了一份），
+  缺字体时回退系统黑体。
 - `rundown.yaml` — 节目单（待建）。条目暂定 `{kind, path|game, title}`，
   定稿前 `games/` 下不新增顶层概念。
 
@@ -30,8 +31,7 @@
   和游戏侧的排序映射（Python 侧是 `SUIT_ORDER`，前端建好后在此登记对应文件）。
 - 牌面 PNG 白底细灰描边、透明圆角 R≈14，改风格时整套一起重生成，别单改一张。
 - Agent 验证一律走 headless（`--save` / 构建产物），不准弹 Tk 窗口。
-- 不提交：`__pycache__/`、`output/`、个人实拍 `source.jpg`、凭据。
-  25MB 字体是刻意 vendor 的，别当垃圾删。
+- 不提交：`__pycache__/`、`output/`、`assets/private/`（个人实拍 `source.jpg`、自带字体都在里面）、凭据。
 - 依赖尚未落盘（只有 Pillow）：`python3 -m pip install Pillow`；`requirements.txt` 待补。
 
 ## Style

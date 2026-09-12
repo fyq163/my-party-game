@@ -36,8 +36,8 @@ YS = [44, 84, 124]
 
 
 def _font(n):
-    # ponytail: 优先仓库自带楷体（LXGW WenKai Medium，原生粗体），本机无楷体时也能一致渲染
-    for p in (str(Path(__file__).resolve().parent.parent / "assets" / "fonts" / "LXGWWenKai-Medium.ttf"),
+    # ponytail: 楷体放本机私有目录（不入库，各生成机自备），没有时回退系统黑体
+    for p in (str(Path(__file__).resolve().parent.parent / "assets" / "private" / "fonts" / "LXGWWenKai-Medium.ttf"),
               "/System/Library/Fonts/Hiragino Sans GB.ttc",
               "/System/Library/Fonts/PingFang.ttc",
               "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
