@@ -1,0 +1,16 @@
+# Python / 构建产物
+__pycache__/
+*.py[cod]
+.venv/
+output/
+dist/
+build/
+
+# 系统文件
+.DS_Store
+
+# 个人实拍与凭据（不入库）
+assets/mahjong/source.jpg
+.env
+*.pem
+*.key

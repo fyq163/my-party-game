@@ -1,0 +1,226 @@
+[
+  {
+    "id": "tong_1",
+    "file": "tiles/tong_1.png",
+    "suit": "tong",
+    "rank": 1,
+    "label": "一筒"
+  },
+  {
+    "id": "tong_2",
+    "file": "tiles/tong_2.png",
+    "suit": "tong",
+    "rank": 2,
+    "label": "二筒"
+  },
+  {
+    "id": "tong_3",
+    "file": "tiles/tong_3.png",
+    "suit": "tong",
+    "rank": 3,
+    "label": "三筒"
+  },
+  {
+    "id": "tong_4",
+    "file": "tiles/tong_4.png",
+    "suit": "tong",
+    "rank": 4,
+    "label": "四筒"
+  },
+  {
+    "id": "tong_5",
+    "file": "tiles/tong_5.png",
+    "suit": "tong",
+    "rank": 5,
+    "label": "五筒"
+  },
+  {
+    "id": "tong_6",
+    "file": "tiles/tong_6.png",
+    "suit": "tong",
+    "rank": 6,
+    "label": "六筒"
+  },
+  {
+    "id": "tong_7",
+    "file": "tiles/tong_7.png",
+    "suit": "tong",
+    "rank": 7,
+    "label": "七筒"
+  },
+  {
+    "id": "tong_8",
+    "file": "tiles/tong_8.png",
+    "suit": "tong",
+    "rank": 8,
+    "label": "八筒"
+  },
+  {
+    "id": "tong_9",
+    "file": "tiles/tong_9.png",
+    "suit": "tong",
+    "rank": 9,
+    "label": "九筒"
+  },
+  {
+    "id": "tiao_1",
+    "file": "tiles/tiao_1.png",
+    "suit": "tiao",
+    "rank": 1,
+    "label": "一條"
+  },
+  {
+    "id": "tiao_2",
+    "file": "tiles/tiao_2.png",
+    "suit": "tiao",
+    "rank": 2,
+    "label": "二條"
+  },
+  {
+    "id": "tiao_3",
+    "file": "tiles/tiao_3.png",
+    "suit": "tiao",
+    "rank": 3,
+    "label": "三條"
+  },
+  {
+    "id": "tiao_4",
+    "file": "tiles/tiao_4.png",
+    "suit": "tiao",
+    "rank": 4,
+    "label": "四條"
+  },
+  {
+    "id": "tiao_5",
+    "file": "tiles/tiao_5.png",
+    "suit": "tiao",
+    "rank": 5,
+    "label": "五條"
+  },
+  {
+    "id": "tiao_6",
+    "file": "tiles/tiao_6.png",
+    "suit": "tiao",
+    "rank": 6,
+    "label": "六條"
+  },
+  {
+    "id": "tiao_7",
+    "file": "tiles/tiao_7.png",
+    "suit": "tiao",
+    "rank": 7,
+    "label": "七條"
+  },
+  {
+    "id": "tiao_8",
+    "file": "tiles/tiao_8.png",
+    "suit": "tiao",
+    "rank": 8,
+    "label": "八條"
+  },
+  {
+    "id": "tiao_9",
+    "file": "tiles/tiao_9.png",
+    "suit": "tiao",
+    "rank": 9,
+    "label": "九條"
+  },
+  {
+    "id": "wan_1",
+    "file": "tiles/wan_1.png",
+    "suit": "wan",
+    "rank": 1,
+    "label": "一萬"
+  },
+  {
+    "id": "wan_2",
+    "file": "tiles/wan_2.png",
+    "suit": "wan",
+    "rank": 2,
+    "label": "二萬"
+  },
+  {
+    "id": "wan_3",
+    "file": "tiles/wan_3.png",
+    "suit": "wan",
+    "rank": 3,
+    "label": "三萬"
+  },
+  {
+    "id": "wan_4",
+    "file": "tiles/wan_4.png",
+    "suit": "wan",
+    "rank": 4,
+    "label": "四萬"
+  },
+  {
+    "id": "wan_5",
+    "file": "tiles/wan_5.png",
+    "suit": "wan",
+    "rank": 5,
+    "label": "五萬"
+  },
+  {
+    "id": "wan_6",
+    "file": "tiles/wan_6.png",
+    "suit": "wan",
+    "rank": 6,
+    "label": "六萬"
+  },
+  {
+    "id": "wan_7",
+    "file": "tiles/wan_7.png",
+    "suit": "wan",
+    "rank": 7,
+    "label": "七萬"
+  },
+  {
+    "id": "wan_8",
+    "file": "tiles/wan_8.png",
+    "suit": "wan",
+    "rank": 8,
+    "label": "八萬"
+  },
+  {
+    "id": "wan_9",
+    "file": "tiles/wan_9.png",
+    "suit": "wan",
+    "rank": 9,
+    "label": "九萬"
+  },
+  {
+    "id": "wind_east",
+    "file": "tiles/wind_east.png",
+    "suit": "wind",
+    "rank": "east",
+    "label": "東"
+  },
+  {
+    "id": "wind_south",
+    "file": "tiles/wind_south.png",
+    "suit": "wind",
+    "rank": "south",
+    "label": "南"
+  },
+  {
+    "id": "wind_west",
+    "file": "tiles/wind_west.png",
+    "suit": "wind",
+    "rank": "west",
+    "label": "西"
+  },
+  {
+    "id": "wind_north",
+    "file": "tiles/wind_north.png",
+    "suit": "wind",
+    "rank": "north",
+    "label": "北"
+  },
+  {
+    "id": "dragon_red",
+    "file": "tiles/dragon_red.png",
+    "suit": "dragon",
+    "rank": "red",
+    "label": "中"
+  }
+]
