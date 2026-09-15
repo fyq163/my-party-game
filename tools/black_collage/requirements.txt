@@ -1,0 +1,7 @@
+pillow
+python-pptx
+opencv-python-headless
+numpy
+lxml
+imageio
+imageio-ffmpeg
