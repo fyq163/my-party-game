@@ -1,0 +1,10 @@
+# Generated previews (do not commit; may contain private photos)
+preview*.pptx
+editable.pptx
+slide*.png
+slide*.gif
+slide*.mp4
+layers/
+
+# Host-provided personal cutouts
+assets/cutout_*.png

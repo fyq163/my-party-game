@@ -19,6 +19,9 @@
 - `tools/slice_mahjong.py` — 牌面生成器，`TILES` 是 32 张牌的唯一真实来源。
   特殊牌面归它所有：七筒 3 上 4 下、八筒 2 列×4 行、八条上下对称 M。
   运行：`python3 tools/slice_mahjong.py`（需 Pillow）。
+- `tools/black_collage/` — 黑底手账拼贴 16:9 PPT（抠图贴纸 + 粉色马克笔描边 + 毛笔标题）。
+  运行见该目录 README；生成的 `.pptx` 用 `rundown.yaml` 的 `kind: ppt` + `path` 引用。
+  手写字体在 `tools/black_collage/fonts/`（OFL，可入库），不要放到 `assets/private/fonts/`。
 - `assets/mahjong/tiles/*.png` — 120×168 统一尺寸；牌面汉字用楷体（LXGW WenKai，中宫大），
   字体放本机 `assets/private/fonts/`（已 ignore，各生成机自备，`~/Library/Fonts` 也装了一份），
   缺字体时回退系统黑体。
@@ -32,7 +35,9 @@
 - 牌面 PNG 白底细灰描边、透明圆角 R≈14，改风格时整套一起重生成，别单改一张。
 - Agent 验证一律走 headless（`--save` / 构建产物），不准弹 Tk 窗口。
 - 不提交：`__pycache__/`、`output/`、`assets/private/`（个人实拍 `source.jpg`、自带字体都在里面）、凭据。
-- 依赖尚未落盘（只有 Pillow）：`python3 -m pip install Pillow`；`requirements.txt` 待补。
+  黑底拼贴的个人抠图 / 预览 PPT 也不入库（见 `tools/black_collage/.gitignore`）。
+- 依赖尚未落盘（麻将侧只有 Pillow）：`python3 -m pip install Pillow`；根目录 `requirements.txt` 待补。
+  拼贴工具另有 `tools/black_collage/requirements.txt`（Pillow、python-pptx、OpenCV 等）。
 
 ## Style
 
